@@ -33,7 +33,7 @@ import java.util.UUID;
 
 public class MessageMaker {
 
-    private static final UUID CCCD_UUID = UUID.fromString("000002902-0000-1000-8000-00805f9b34fb");
+    // private static final UUID CCCD_UUID = UUID.fromString("000002902-0000-1000-8000-00805f9b34fb");
 
     private static final char[] HEX_ARRAY = "0123456789ABCDEF".toCharArray();
     public static String toHexString(byte[] bytes) {
